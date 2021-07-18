@@ -1,0 +1,86 @@
+.errorDiv {
+    background: #ff000057;   
+    text-align: center;
+    display: block;
+}
+
+
+header.w3-container.w3-teal {
+    text-align: center;
+}
+
+.w3-container.w3-half.w3-margin-top {
+    margin-left: 25%;
+}
+
+
+.w3-container.w3-half.w3-margin-top {
+    text-align: -webkit-center;
+}
+
+button.w3-button.w3-section.w3-teal.w3-ripple {
+    margin-inline: 2%;
+    border-radius: 30px;
+}
+
+.w3-button.w3-section.w3-teal.w3-ripple.accesso {
+    background-color: #9f9ee5!important;
+}
+
+.w3-button.w3-section.w3-teal.w3-ripple.elimina {
+    background-color: red!important;
+}
+
+.w3-button.w3-section.w3-teal.w3-ripple.ruoli {
+    background-color: #9f9ee5!important;
+}
+
+@media only screen and (max-width: 480px){
+	.w3-button.w3-section.w3-teal.w3-ripple.ruoli{
+	  max-width:600px !important;
+	  width:100% !important;
+	}
+
+	.w3-button.w3-section.w3-teal.w3-ripple.ruoli{
+	  display:block !important;
+	  font-size:18px !important;
+	}
+}
+
+.w3-button.w3-section.w3-teal.w3-ripple.accesso:hover {
+    color: black !important;
+    background-color: #9f9ee5b3!important;
+}
+
+button.w3-button.w3-section.w3-teal.w3-ripple.opuscolo {
+    color: black;
+    border-color: #3a3133c7;
+    font-weight: 600;
+    background-color: #0000004d;
+    border: black;
+}
+
+button.w3-button.w3-section.w3-teal.w3-ripple.actors {
+    background-color: #808000!important;
+    color: white!important;
+}
+
+button.w3-button.w3-section.w3-teal.w3-ripple.signin {
+    background-color: #ccc!important;
+    color: white !important;
+}
+
+
+.w3-button:hover {
+    color: black !important;
+    background-color: #D2D0D1;
+}
+
+.gender input[type="radio"] {
+    margin: 2%;
+}
+
+
+@-ms-viewport{
+  width: device-width;
+}
